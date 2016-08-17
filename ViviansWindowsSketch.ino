@@ -40,6 +40,7 @@
 // instantiate timers
 SimpleTimer timer;
 int lastTimeout;
+int delayTime = 5000;
 
 // booleans for tracking state of each motor
 boolean running1 = false;
@@ -100,7 +101,6 @@ void loop() {
     } else {
       killMotor1();
     }
-    delay(500);
   }
 
   if(digitalRead(button1down)==LOW) {
@@ -112,7 +112,6 @@ void loop() {
     } else {
       killMotor1();
     }
-    delay(500);
   }
 
   if(digitalRead(button2up)==LOW) {
@@ -124,7 +123,6 @@ void loop() {
     } else {
       killMotor2();
     }
-    delay(500);
   }
 
   if(digitalRead(button2down)==LOW) {
@@ -136,7 +134,6 @@ void loop() {
     } else {
       killMotor2();
     }
-    delay(500);
   }
 
   if(digitalRead(button3up)==LOW) {
@@ -148,7 +145,6 @@ void loop() {
     } else {
       killMotor3();
     }
-    delay(500);
   }
 
   if(digitalRead(button3down)==LOW) {
@@ -160,7 +156,6 @@ void loop() {
     } else {
       killMotor3();
     }
-    delay(500);
   }
 
   if(digitalRead(button4up)==LOW) {
@@ -172,7 +167,6 @@ void loop() {
     } else {
       killMotor4();
     }
-    delay(500);
   }
 
   if(digitalRead(button4down)==LOW) {
@@ -184,7 +178,6 @@ void loop() {
     } else {
       killMotor4();
     }
-    delay(500);
   }
 
   if(digitalRead(button5up)==LOW) {
@@ -196,7 +189,6 @@ void loop() {
     } else {
       killMotor5();
     }
-    delay(500);
   }
 
   if(digitalRead(button5down)==LOW) {
@@ -208,8 +200,9 @@ void loop() {
     } else {
       killMotor5;
     }
-    delay(500);
   }
+
+  delay(1000);
 }
 
 void setMotor1() {

@@ -7,3 +7,5 @@ Small arduino program for controlling the window actuation system built and inst
 **Changelog:**
 
 *Version 1.0* - Core Functionality
+
+*Version 1.1* - Fixed bug causing intermittent stopping of the actuator
