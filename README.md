@@ -2,7 +2,7 @@
 
 **Description:**
 
-Small arduino program for controlling the window actuation system built and installed for Vivian Paff.
+Small arduino program for controlling the window actuation system built and installed for a disabled senior citizen.
 
 **Changelog:**
 
